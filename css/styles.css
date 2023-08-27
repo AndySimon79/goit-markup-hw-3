@@ -111,6 +111,11 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.logo-top {
+  display: flex;
+  margin-right: 76px;
+}
+
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -119,19 +124,18 @@ button {
 .page-navigation {
   display: flex;
   align-items: center;
+}
+
+.navigation-links {
+  display: flex;
   padding: 24px 0;
   gap: 40px;
 }
 
-.logo-top {
-  display: flex;
-  margin-right: 76px;
-}
-
 .header-contacts {
   display: flex;
-  gap: 40px;
   align-items: center;
+  gap: 40px;
 }
 
 /* SECTION 1 - Effective Solutions for Your Business */
