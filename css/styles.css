@@ -45,7 +45,8 @@ button {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .visually-hidden {
@@ -119,15 +120,21 @@ button {
 
 .page-navigation {
   display: flex;
-  column-gap: 40px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .logo-top {
   display: flex;
-  align-items: center;
+  margin-right: 76px;
 }
 
-.page-navigation {
+.header-contacts {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 /* SECTION 1 - Effective Solutions for Your Business */
