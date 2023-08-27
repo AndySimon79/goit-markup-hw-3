@@ -128,8 +128,16 @@ button {
 
 .navigation-links {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
+}
+
+.navigation {
+  display: block;
+  padding: 24px 0;
+}
+
+.page-contact {
+  display: flex;
 }
 
 .header-contacts {
@@ -137,11 +145,6 @@ button {
   align-items: center;
   padding: 24px 0;
   gap: 40px;
-}
-
-.navigation {
-  font-display: block;
-  padding: 24px 0;
 }
 
 /* SECTION 1 - Effective Solutions for Your Business */
