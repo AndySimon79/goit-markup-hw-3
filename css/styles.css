@@ -135,6 +135,7 @@ button {
 .header-contacts {
   display: flex;
   align-items: center;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -282,4 +283,11 @@ button {
 }
 .logo-part-bottom {
   color: #f4f4fd;
+}
+.footer-color {
+  padding: 100px 0;
+}
+.logo-bottom {
+  display: inline-block;
+  margin-bottom: 16px;
 }
