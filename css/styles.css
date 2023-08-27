@@ -139,6 +139,11 @@ button {
   gap: 40px;
 }
 
+.navigation {
+  font-display: block;
+  padding: 24px 0;
+}
+
 /* SECTION 1 - Effective Solutions for Your Business */
 
 .section-one-color {
