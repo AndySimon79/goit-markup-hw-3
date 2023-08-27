@@ -197,14 +197,13 @@ button {
 
 /* SECTION 2 - Advantages */
 
-/* .visually-hidden{} */
-
 .header-advantages {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .header-text {
   color: #434455;
@@ -214,6 +213,18 @@ button {
 }
 .section-two-color {
   background: #f4f4fd;
+}
+
+.agvantages {
+  padding: 120px 0;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-info {
+  width: calc((100% - 72px) / 4);
 }
 
 /* SECTION 3 - Our Team */
